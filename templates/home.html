@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<section class="card hero">
+  <h2>Welcome Students 👋</h2>
+  <p>Easy learning with daily practice, smart revision and clear concepts.</p>
+  <a class="btn" href="{{ url_for('notes') }}">Open Notes</a>
+</section>
+{% endblock %}
