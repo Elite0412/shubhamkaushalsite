@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kaushalphysics.vercel.app/sitemap.xml
